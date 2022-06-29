@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/anime-clone/static/css/main.0f538c41.css",
+    "main.js": "/anime-clone/static/js/main.7e6c66e0.js",
+    "index.html": "/anime-clone/index.html",
+    "main.0f538c41.css.map": "/anime-clone/static/css/main.0f538c41.css.map",
+    "main.7e6c66e0.js.map": "/anime-clone/static/js/main.7e6c66e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f538c41.css",
+    "static/js/main.7e6c66e0.js"
+  ]
+}
