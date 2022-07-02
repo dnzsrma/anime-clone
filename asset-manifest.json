@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/anime-clone/static/css/main.3a5360be.css",
-    "main.js": "/anime-clone/static/js/main.1060f825.js",
+    "main.css": "/anime-clone/static/css/main.a35bfac0.css",
+    "main.js": "/anime-clone/static/js/main.e2ba11c2.js",
     "index.html": "/anime-clone/index.html",
-    "main.3a5360be.css.map": "/anime-clone/static/css/main.3a5360be.css.map",
-    "main.1060f825.js.map": "/anime-clone/static/js/main.1060f825.js.map"
+    "main.a35bfac0.css.map": "/anime-clone/static/css/main.a35bfac0.css.map",
+    "main.e2ba11c2.js.map": "/anime-clone/static/js/main.e2ba11c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a5360be.css",
-    "static/js/main.1060f825.js"
+    "static/css/main.a35bfac0.css",
+    "static/js/main.e2ba11c2.js"
   ]
 }
