@@ -64,7 +64,7 @@ function Signup(props) {
     return (
         <div id='signup-page-container'>
         <div id="signup-div">
-          <form onSubmit={handleSubmit}>
+          <form className='forms' onSubmit={handleSubmit}>
             <input id='fname' type="text" placeholder='Name' onChange={event => setUsername(event.target.value)}></input>
             <input id='fmail' type="email" placeholder='E-mail' onChange={event => setEmail(event.target.value)}></input>
             <input id='fpass' type="password" placeholder='Password' onChange={event => setPassword(event.target.value)}></input>

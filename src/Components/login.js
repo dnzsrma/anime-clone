@@ -40,7 +40,7 @@ function Login(props) {
     return (
       <div id='login-page-container'>
         <div id="login-div">
-          <form onSubmit={signInWithEmail}>
+          <form className='forms' onSubmit={signInWithEmail}>
             <input id='fmail-login' type="email" placeholder='E-mail' onChange={event => setEmail(event.target.value)}></input>
             <input id='fPass-login' type="password" placeholder='Password' onChange={event => setPassword(event.target.value)}></input>
             <button typeof='submit'>Log In</button>

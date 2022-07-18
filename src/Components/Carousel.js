@@ -16,15 +16,16 @@ function Carousel(props) {
     }
 
   return (
-    <div id={props.elementId}>
-    <button onClick={scrollLeft} style={{background:"white",position: "sticky",top:"4vw",left:"1%",height:"10vw",width:"45px",opacity:".9",borderRadius:"1vw"}}>&larr;</button>
-    <button onClick={scrollRight} style={{background:"white",position: "sticky",top:"4vw",left:"95%",height:"10vw",width:"45px",opacity:".9",borderRadius:"1vw"}}>&rarr;</button>
+    <div id={props.elementId} className="carousel">
+    <button onClick={scrollLeft} className="carousel-buttons" style={{left:"0", marginLeft:"-40px"}}>&larr;</button>
+    
     {
         props.fetchedArray.map(anime =>
         <Link key={anime.id} to={{pathname:`/animes/${anime.id}`}}><img alt={anime.attributes.titles.en_jp} className="anime-card"src={anime.attributes.posterImage.small}/></Link>
         )
     }
-    
+
+<button onClick={scrollRight} className="carousel-buttons" style={{right:"0px",marginRight:"-40px"}}>&rarr;</button>
     </div>
   );
 }

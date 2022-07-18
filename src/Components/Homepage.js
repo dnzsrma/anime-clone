@@ -111,8 +111,8 @@ function Homepage(props) {
                 <div id="homepage-post-form">
                     {getAuth().currentUser &&
                         <form onSubmit={handleSubmit} style={{marginTop:"2vw",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-                        <textarea maxLength="180" onChange={handleTextChange} rows = "5" cols = "400" style={{marginBottom:"2vw",height:"10vw",width:"20vw",resize:"none"}} placeholder="Share your thoughts..."></textarea>
-                        <button style={{backgroundColor:'#1d439b',color:'white',height:'3vw',width:'5vw'}} type="submit">Share!</button>
+                        <textarea maxLength="180" onChange={handleTextChange} rows = "5" cols = "400" placeholder="Share your thoughts..."></textarea>
+                        <button type="submit">Share!</button>
                         </form>
                     }
                 </div>
